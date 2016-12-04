@@ -1,0 +1,26 @@
+Code folder contains necessary files
+	|
+	+--Secrets.php
+	|	|
+	|	+--Contains the specific gmail username and password
+	|
+	+--readMail.php
+	|	|
+	|	+--Code for acessing gmail account and pulling unread emails
+	|
+	+--King.php
+	|	|
+	|	+--Manages all other files and pulls their functions together
+	|
+	+--checkNow.js
+	|	|
+	|	+--Checks the google google calendar to find if there is anything currently scheduled
+	|
+	+--Respond.php / RespondT.php
+	|	|
+	|	+--Is called by the calendar check function files and uses switch statement to build message that will be send to requester
+	|
+	+--sendResponse.php / sendFree.php
+		|
+		+--Is called by the respond functions depending on the type of response that needs to be sent
+		
